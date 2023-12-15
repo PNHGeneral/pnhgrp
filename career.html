@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="header" style="font-size: 1vw">
+        <img src="logo.jpg" class="logo"></img>
+        <div class="header_options">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="career.html">Career</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <h2 style="padding-left: 1%; text-align: center; font-size: 2vw;">Let's Build Your New Career Path with PNH Group!</h2>
+
+    <div style="width: 90%; margin: auto;">
+        <button class="collapsible">Operations Manager (Facilities Management)</button>
+        <div class="content">
+            <p style="padding-left: 2%;"> <b>Roles & Responsibilities</b> <br> <br>
+
+                                                •	Monitor and track all job request.<br>
+                                                •	Monitor and track all project works and their progress status<br>
+                                                •	Monitoring of KPIs to ensure compliance with performance framework<br>
+                                                •	Assign vendors / sub-con / technicians to carry out project works<br>
+                                                •	Monitor Non-compliance letters and liaise with Contracts Dept for response<br>
+                                                •	Prepare,Plan and compile Monthly various schedules and reports related to the assigned facility<br>
+                                                •	Liaise with stakeholders of the assigned facility as the Main POC<br>
+                                                •	Track and monitor all clearance of Vendors / Sub-cons and technicians<br><br>
+                                          <b>Job requirements</b><br>
+                                                •	Degree in Engineering/Building/Facilities Management or relevant disciplines<br>
+                                                •	Min 5 years relevant work experience in a similar role/industry<br>
+                                                •	Experience in handling Government properties preferred<br>
+                                                •	Strong communication and presentation skills<br>
+                                                •	Strong in written and spoken English<br>
+                                                •	Team driven, multitask, project management<br>
+                </p>
+        </div>
+
+        <button class="collapsible">Quantitiy Surveyor</button>
+        <div class="content">
+            <p style="padding-left: 2%;"><b>Roles & Responsibilities</b> <br> <br>
+                                            •	Support of maintenance and project works function<br>
+                                            •	Prepare cost estimate for monthly breakdown call claim,  cost estimate for ad-hoc works by user FSOR <br>
+                                            •	Evaluate and carry out joint measurement with Operation/Client (e-PO, Final BQ, etc.)<br>
+                                            •	Review and prepare specifications, evaluate and recommend tender submissions and contract documentation (maintenance contract)<br>
+                                            •	Prepare tender document, tender calling, tender evaluation, market survey report, contract documents, 
+                                                including bills of quantities with clients/ architects, and preparing and analysing costing in detailed reports<br>
+                                            •	Prepare tender documents, tender evaluation report, variation agreements and render professional advice on 
+                                                any penalties, liquidated damages when deem necessary.<br>
+                                            •	Prepare recommendation report (exercise option / CVR etc.) Carry out random audits of not less than two (2) projects on 
+                                                maintenance replacement per month<br>
+                                            •	Administer term contractors A&A works<br>
+                                            •	Any other ad-hoc assignments assigned by the Management.<br><br>
+                                            <b>Requirements</b><br>
+                                            •	Candidate must possess at least a Diploma in Quantity Survey, Building, Engineering, Construction Management or other relevant qualifications 
+                                                from a recognized tertiary establishment.<br>
+                                            •	At least 5 years of relevant working experience (FM industry preferred) is required for this position.<br>
+                                            </p>
+        </div>
+
+        <button class="collapsible">Cleaner</button>
+        <div class="content">
+            <p style="padding-left: 2%;"><b>Job Description</b><br><br>
+                                            •	Cleaning, stocking and supplying designated facility areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, restroom cleaning etc)<br>
+                                            •	Performing routine inspection and maintenance activities<br>
+                                            •	Carry out heavy cleaning tasks and special projects<br><br>
+                                        <b>Requirements</b><br>
+                                            •	N or O Level/ Nitec Cert<br>
+                                            •	1-2 years of experienced preferable<br>
+                                            •	Can work with minimum supervision and at times independently, as well as under pressure<br>
+                                            •	Able to multi-task and work independently<br>
+                                            •	Able to perform overtime when necessary<br>
+                                            •	Able to start work immediately or within short notice<br>
+                                            </p>
+        </div>
+
+    <div style="padding-top: 3%;">
+        <a href='https://forms.gle/ckFVGtM3rMhc5dSJ8' ><button>Apply Now</button></a>
+    </div>
+
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+
+
+</body>
+</html>

@@ -1,0 +1,582 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    height: 4vw;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1vw;
+    line-height: auto;
+    border-radius: 4px;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+.logo {
+    position: absolute;
+    height: 3vw;
+    width: auto;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header_options {
+    font-size: 1vw;
+    float: right;
+  }
+  
+
+.about{
+  background-image: url(images/companies.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.about1{
+  background-image: url(images/companies.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.company_vision {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+table, td {
+  border: 0px solid lightslategrey;
+  border-collapse: collapse;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+.services .service_header {
+  text-decoration: lightgrey underline;
+}
+
+.companies .companies_header {
+  text-decoration: lightgrey underline;
+}
+
+.about_header {
+  text-decoration: lightgrey underline;
+}
+
+.contact_header {
+  text-decoration: lightgrey underline;
+}
+
+.group_container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.service_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.project_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.companies_profiles {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.about_container {
+  width: 100%;
+  display: table-cell;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.service {
+  display: flex;
+  flex: 100%;
+  padding: 10px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.project {
+  display: flex;
+  flex: 100%;
+  padding: 10px;
+  height: auto;
+}
+
+.profile {
+  display: flex;
+  flex: 100%;
+  padding: 10px;
+  height: auto;
+  padding-top: 10%;
+}
+
+.grp {
+  display: flex;
+  flex: 70%;
+  padding: 10px;
+  height: auto;
+}
+
+.about_info {
+  display: flex;
+  flex: 80%;
+  padding: 10px;
+  height: auto;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center
+}
+
+.data {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.proj {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.flagship {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.flagship_proj {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.com_profile {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+
+.info {
+  width: 80%;
+  flex: 1;  
+  display:flex;
+  text-align:right;
+  vertical-align: middle;
+  padding-left: 15%;
+
+}
+
+
+.about_img{
+  width: 50%;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .service_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .group_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .about_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+
+}
+ 
+body{
+  /* background-image: url("background.jpg"); */
+  background-color: white;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+.company_background{
+  background-image: url(images/grpb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.build {
+  position: relative;
+}
+
+.technical {
+  position: relative;
+}
+
+.general {
+  position: relative;
+}
+
+.energy {
+  position: relative;
+}
+
+.highrise {
+  position: relative;
+}
+
+.housekeeping {
+  position: relative;
+}
+
+.landscaping {
+  position: relative;
+}
+
+.pest_control {
+  position: relative;
+}
+
+.infrastructure {
+  position: relative;
+}
+
+.border_box{
+  position: absolute;
+  border: 3px solid white;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+
+/* Hide the images by default */
+.buildSlides {
+  display:none;
+}
+
+.technicalSlides {
+  display:none;
+}
+
+.generalSlides {
+  display:none;
+}
+
+.energySlides {
+  display:none;
+}
+
+.highriseSlides {
+  display:none;
+}
+
+.housekeepingSlides {
+  display:none;
+}
+
+.landscapingSlides {
+  display:none;
+}
+
+.pest_controlSlides{
+  display: none;
+}
+
+.infrastructureSlides {
+  display:none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 12px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  border-radius: 0 1vw 1vw 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1vw 0 0 1vw;
+}
+
+
+/* Position the "prev button" to the left */
+.prev {
+  left: 0;
+  border-radius: 1vw 0 0 1vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 1vw;
+  padding: auto auto;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  font-size: 1vw;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  height: 5%;
+}
+
+.company_caption-container {
+  text-align: center;
+  font-size: 1vw;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.col{
+  float:left;
+  width: 25%;
+  padding: 5px;
+}
+
+.rows::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row3 {
+  display: flex;
+}
+
+.row4 {
+  display: flex;
+}
+
+.row5 {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding: 5px;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 4px solid hsl(0, 0%, 90%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 80%;
+  align-items: center;
+}
+
+
+.sliderFrame {
+  position:relative;
+  width:20vw;
+  height: 15vw;
+  margin: 0 auto;
+} 
+
+#slider {
+    width:20vw;
+    height:15vw;
+    background:#fff url(loading.gif) no-repeat 50% 50%;
+    position:relative;
+    margin:0 auto;
+    box-shadow: 0px 1px 5px #999999;
+}
+#slider img {
+    position:absolute;
+    border:none;
+    display:none;
+}
+
+.mySlides{
+  display: none;
+}
+
+.collapsible {
+  background-color: #0072BB;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #006090;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}

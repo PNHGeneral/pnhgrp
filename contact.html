@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+        $('#gform').on('submit', function(e) {
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('Your submission has been processed...');
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/4596ae72b8.js" crossorigin="anonymous"></script>
+    <title>Contact Form</title>
+    <!-- Form styling -->
+    <link rel="stylesheet" href="formcarry-form.css" />
+  </head>
+  <body>
+
+    <div class="header" style="font-size: 1vw">
+        <img src="logo.jpg" class="logo"></img>
+        <div class="header_options">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="career.html">Career</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <h1 class="contact_header"; style="color: black; text-align: center; font-size: 2vw;"> Get in Touch with Us Now ! </h1>
+
+    <div class="formcontainer" style="display: flex;justify-content: center;font-size: 1.5vw;">
+      <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf1_HeAOHx59BjyCKKCLHm5ASsb2LbpXr3gX90uNmO7CFjTBQ/formResponse?"
+      target="hidden_iframe" onsubmit="submitted=true;">
+        Name:<br>
+        <textarea type="text" name="entry.602557892" id="entry.602557892" rows="2"> </textarea><br>
+        Email：<br>
+        <textarea type="text" name="entry.969233798" id="entry.969233798" rows="2"> </textarea><br>
+        Message:<br>
+        <textarea id="entry.820749606" name="entry.820749606" rows="4" cols="50">
+        </textarea>
+        <br><br>
+        <input type="submit" value="Submit" >
+      </form>
+    </div>
+
+    <div class="rows" style="background-color: white;">
+        <div style="padding-top: 20px;">
+          <div class="col" style="display: flex; align-items: center; margin-left: 22%;">
+            <i class="fa-solid fa-phone"></i> 
+          </div>
+  
+          <div class="col" style="display: flex; align-items: center; margin-left: 2%;">
+              <i class="fa-solid fa-envelope"></i> 
+          </div>
+  
+          <div class="col" style="display: flex; align-items: center; margin-left: 18%; font-size: 1.5vw;">
+            <p> (65) 6464 9959 </p>
+          </div>
+  
+          <div class="col" style="display: flex; align-items: center; font-size: 1.5vw;">
+            <p> junsiang_ng@pnhgrp.com </p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: center; padding-top: 15%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.28345849004222!2d103.79510110118635!3d1.453059552470562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da13875190d165%3A0x3219570c4801e9e5!2s2%20Woodlands%20Industrial%20Park%20E1%2C%20Singapore%20757725!5e0!3m2!1sen!2ssg!4v1688545261909!5m2!1sen!2ssg" 
+        width= "80%" height="500" style="border: 2px solid lightgray ;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <p style="font-size: 1.5vw; margin-left: 10%;"> <b> Office Location: </b> 2 Woodlands Industrial Park E1, Singapore 757725</p>
+
+      <div>
+        <div class="header" style="font-size: 1vw">
+          <img src="logo.jpg" class="logo"></img>
+          <div class="header_options">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="service.html">Services</a>
+              <a href="career.html">Career</a>
+              <a href="contact.html">Contact</a>
+          </div>
+      </div>
+      </div>
+      
+  </body>
+</html>
